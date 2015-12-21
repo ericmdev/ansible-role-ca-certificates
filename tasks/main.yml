@@ -1,0 +1,6 @@
+---
+- name: Upgrade ca-certificates.
+  yum:
+    name: ca-certificates
+    state: latest
+    disablerepo: epel
